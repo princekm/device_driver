@@ -1,0 +1,1 @@
+cmd_/home/prinz/Downloads/drivers/driver.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/prinz/Downloads/drivers/driver.ko /home/prinz/Downloads/drivers/driver.o /home/prinz/Downloads/drivers/driver.mod.o
